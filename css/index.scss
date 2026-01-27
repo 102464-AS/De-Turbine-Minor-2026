@@ -1,0 +1,36 @@
+.center-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.website {
+    position: absolute;
+    height: 1080px;
+    width: 1920px;
+    border: 2px solid black;
+    font-size: 60px;
+}
+
+.test-1 {
+    background-color: blue;
+}
+
+.test-2 {
+    background-color: red; 
+}
+
+.test-3 {
+    background-color: green;
+}
