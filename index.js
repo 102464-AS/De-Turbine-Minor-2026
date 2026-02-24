@@ -2,19 +2,24 @@ const websites = document.querySelectorAll(".website")
 
 let index = 0
 
-setInterval(() => {
-    index++
-    let div = document.getElementById(`site-${index}`)
+for(const website of websites){
+    website.classList.add("hidden")
+}
+document.getElementById("programma").classList.remove("hidden")
 
-    for(const website of websites){
-        website.classList.add("hidden")
-    }
+// setInterval(() => {
+//     index++
+//     let div = document.getElementById(`site-${index}`)
 
-    if(!div){
-        index= 1;
-    }
+//     for(const website of websites){
+//         website.classList.add("hidden")
+//     }
 
-    div = document.getElementById(`site-${index}`)
+//     if(!div){
+//         index= 1;
+//     }
+
+//     div = document.getElementById(`site-${index}`)
     
-    div.classList.remove("hidden")
-}, 2000); 
+//     div.classList.remove("hidden")
+// }, 2000); 

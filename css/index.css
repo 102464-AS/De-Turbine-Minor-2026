@@ -1,3 +1,8 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap");
+body {
+  font-family: "Satoshi", sans-serif;
+}
+
 .center-container {
   position: absolute;
   top: 0;
@@ -18,17 +23,90 @@
   position: absolute;
   height: 1080px;
   width: 1920px;
-  border: 2px solid black;
   font-size: 60px;
 }
 
-.test-1 {
-  background-color: blue;
-  color: white;
+#programma {
+  background-color: #88379A;
 }
-.test-1 img {
+#programma #side-container {
+  width: 1192px;
+  height: 100%;
+}
+#programma #side-container .rounded-sqaure {
+  width: 827px;
+  height: 50%;
+  background-color: black;
+  position: relative;
+  z-index: 5;
+}
+#programma #side-container #top {
+  border-radius: 0 0% 65% 0%/0% 0 90% 0%;
+}
+#programma #side-container #top h1 {
+  height: 60%;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 96px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  top: 35px;
+  left: 20px;
+  border-radius: 100%;
+  border: solid #F7C943 10px;
+}
+#programma #side-container #bottom {
+  border-radius: 0 65% 0 0/0 90% 0 0;
+}
+#programma #side-container #bottom h1 {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 64px;
+  position: relative;
+  top: 139px;
+  left: 63px;
+}
+#programma #side-container #bottom h2 {
+  color: white;
+  position: relative;
+  top: 139px;
+  left: 63px;
+  font-size: 64px;
+}
+#programma #side-container #bottom h2 span {
+  margin-left: 200px;
+}
+#programma #side-container #bottom .line {
+  width: 571.03px;
+  height: 10px;
+  background-color: #F7C943;
+  position: relative;
+  top: 159px;
+  left: 35px;
+}
+#programma #logo {
+  background-color: transparent;
+  border: 5px solid black;
+  border-radius: 100%;
+  filter: drop-shadow(-5px 0px 2px #F7C943);
+  width: 1080px;
+  height: 1080px;
   position: absolute;
-  left: 50px;
+  top: -10px;
+  left: 40px;
+  z-index: 2;
+}
+#programma #logo img {
+  height: 280px;
+  width: 591px;
+  position: relative;
+  top: 37%;
+  left: 46%;
 }
 
 .test-2 {
