@@ -26,24 +26,24 @@ body {
   font-size: 60px;
 }
 
-#programma {
+.programma {
   background-color: #88379A;
 }
-#programma #side-container {
+.programma #side-container {
   width: 1192px;
   height: 100%;
 }
-#programma #side-container .rounded-sqaure {
+.programma #side-container .rounded-sqaure {
   width: 827px;
   height: 50%;
   background-color: black;
   position: relative;
   z-index: 5;
 }
-#programma #side-container #top {
+.programma #side-container #top {
   border-radius: 0 0% 65% 0%/0% 0 90% 0%;
 }
-#programma #side-container #top h1 {
+.programma #side-container #top h1 {
   height: 60%;
   width: 80%;
   padding: 0;
@@ -59,10 +59,10 @@ body {
   border-radius: 100%;
   border: solid #F7C943 10px;
 }
-#programma #side-container #bottom {
+.programma #side-container #bottom {
   border-radius: 0 65% 0 0/0 90% 0 0;
 }
-#programma #side-container #bottom h1 {
+.programma #side-container #bottom h1 {
   color: white;
   padding: 0;
   margin: 0;
@@ -71,17 +71,17 @@ body {
   top: 139px;
   left: 63px;
 }
-#programma #side-container #bottom h2 {
+.programma #side-container #bottom h2 {
   color: white;
   position: relative;
   top: 139px;
   left: 63px;
   font-size: 64px;
 }
-#programma #side-container #bottom h2 span {
+.programma #side-container #bottom h2 span {
   margin-left: 200px;
 }
-#programma #side-container #bottom .line {
+.programma #side-container #bottom .line {
   width: 571.03px;
   height: 10px;
   background-color: #F7C943;
@@ -89,7 +89,7 @@ body {
   top: 159px;
   left: 35px;
 }
-#programma #logo {
+.programma #logo {
   background-color: transparent;
   border: 5px solid black;
   border-radius: 100%;
@@ -101,7 +101,7 @@ body {
   left: 40px;
   z-index: 2;
 }
-#programma #logo img {
+.programma #logo img {
   height: 280px;
   width: 591px;
   position: relative;
@@ -109,8 +109,45 @@ body {
   left: 46%;
 }
 
+#time-container {
+  width: 564px;
+  height: 100%;
+  position: absolute;
+  top: 85px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+#time-container .band-container .datum {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 64px;
+}
+#time-container .band-container .lijn {
+  background-color: #F7C943;
+  width: 100%;
+  height: 10px;
+}
+#time-container .band-container .timeline-item {
+  display: flex;
+  align-items: center;
+}
+#time-container .band-container .timeline-item .band {
+  font-size: 64px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+#time-container .band-container .timeline-item .tijd {
+  margin-left: auto;
+  font-size: 48px;
+  color: white;
+}
+
 .test-2 {
-  background-color: red;
+  background-color: #88379A;
 }
 
 .test-3 {

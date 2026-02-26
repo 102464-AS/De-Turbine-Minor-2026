@@ -29,43 +29,7 @@ body {
     font-size: 60px;
 }
 
-// #programma{
-//     background-color: #88379A;
-
-//     & #side-container{
-//         position: absolute;
-//         top: 0;
-//         width: 1191px; height: 100%;
-//         margin: 0;
-//         font-size: 96px;
-//         height: 60%;
-//         width: 80%;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         position: relative;
-//         left: 20px;
-//         top: 35px; border-radius: 100%; border: solid #F7C943 10px;
-
-//         & h1{
-//             font-size: 96px;
-//         }
-
-//         &:hover{
-//             cursor: default;
-//         }
-//     }
-
-
-//     & .rounded-sqaure{
-//         background-color: black;
-//         width: 100%;
-//         height: 50%;
-//     }
-// }
-
-
-#programma{
+.programma{
     background-color: #88379A;
     & #side-container{
         width: 1192px;
@@ -164,8 +128,53 @@ body {
     }
 }
 
+#time-container {
+    width: 564px;
+    height: 100%;
+    // background-color: gray;
+    // padding-top: 66px;
+    position: absolute;
+    top: 85px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+
+    .band-container {
+        .datum {
+            color: white; 
+            padding: 0;
+            margin: 0;
+            font-size: 64px;
+        }
+
+        .lijn {
+            background-color: #F7C943;  
+            width: 100%;
+            height: 10px;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: center;
+
+            .band {
+                font-size: 64px;
+                color: white;
+                padding: 0;
+                margin: 0;
+            }
+            .tijd {
+                margin-left: auto;
+                font-size: 48px;
+                color: white; 
+            }
+        }
+    }
+}
+
 .test-2 {
-    background-color: red; 
+    background-color: #88379A;
 }
 
 .test-3 {
